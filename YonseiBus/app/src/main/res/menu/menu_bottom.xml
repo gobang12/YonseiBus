@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/tab1"
+    app:showAsAction="ifRoom"
+    android:enabled="true"
+    android:title="버스시간"
+    />
+
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="전쳬시간표"
+        />
+    <item
+        android:id="@+id/tab3"
+        android:enabled="true"
+        android:title="새로고침"
+        app:showAsAction="ifRoom" />
+</menu>
